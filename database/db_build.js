@@ -7,6 +7,6 @@ connect.query(buildScript, (err, res) => {
   if (err) {
     throw err;
   }
-  connect.end();
   console.log('database build successful!');
+  connect.end();
 });
